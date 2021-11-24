@@ -12,8 +12,8 @@ def signIn(userName, passWord):
         usernameInput = input("Input your username : ")
         passwordInput = int(input("Input your password : "))
     print("Welcome Back to Ben Coffe & Food !!")
-    return True
 def showMenu():
+    print("---------------------------------")
     print("!! Menu of Ben Coffe & Food !!")
     print("---------------------------------")
     print("NO. Menu            Price")
@@ -82,7 +82,4 @@ def piceCalculate(totalPrice):
     print("---------------------------------")
 
 register()
-signIn()
 menuPrice()
-menuSelected()
-piceCalculate()
